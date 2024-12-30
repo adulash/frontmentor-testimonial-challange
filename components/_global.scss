@@ -1,0 +1,20 @@
+/* Global CSS */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-name);
+  background-color: var(--Light_grayish_blue);
+  padding: 1rem;
+}
+
+.container {
+  display: grid;
+  width: 85rem;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+  margin-top: 1rem;
+}
+
+/* End Global */
